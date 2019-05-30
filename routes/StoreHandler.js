@@ -5,9 +5,6 @@ const {check, validationResult} = require('express-validator/check')
 
 const Store = mongoose.model('Store');
 
-const path = require('path');
-const auth = require('http-auth');
-
 // routes
 
 // retrieve store

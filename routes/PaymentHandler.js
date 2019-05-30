@@ -5,9 +5,6 @@ const router = express.Router()
 const Payment = mongoose.model('Payment')
 const Order = mongoose.model('Order')
 
-const path = require('path');
-const auth = require('http-auth');
-
 // create payment
 router.post(
     '/',
